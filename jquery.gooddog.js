@@ -12,7 +12,7 @@
     
     //Placing element in middle
     function gd_middle($element, duration) {
-        duration = typeof duration !== "undefined" ? duration : false;
+        duration = typeof duration !== "undefined" ? duration : 0;
 
         $element.animate({
             'top': ($(window).height() / 2) -
